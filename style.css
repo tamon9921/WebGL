@@ -14,7 +14,7 @@ p{
 }
 
 img:hover {
- opacity: 0.75;
+ opacity: 0.6;
 }
 
 .p01{
@@ -28,9 +28,9 @@ img:hover {
 }
 
 .float{
-  padding-left:30px;
-  width: 260px;
-  height: 350px;
+  padding-left:10px;
+  width: 122px;
+  height: 122px;
 }
 
 
@@ -55,25 +55,20 @@ a:active {
   h1{
     box-sizing:border-box;
     max-width: 1900px;
-    margin: 0 auto 10px auto;
-    padding:15px 30px;
+    margin: 0 auto 0px auto;
+    padding:10px 15px;
     background-color: #f9f9f9;
     border: #f9f9f9 1px solid;
     border-radius: 0px 0px 0px 0px;
     color: #111;
-    font-size: 20px;
-    text-align: center;
+    font-size: 16px;
+    text-align: left;
+    font-weight:300;
   }
 
   h2{
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
-  }
-
-  h4{
-    padding-right: 25px ;
-    text-align: right;
-    position: relative;
   }
 
   footer{
