@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+.yasumistyle{
+  width: 200px;
+  margin-right: 0px;
+}
+
+.yasumistyle01{
+  width: 200px;
+}
+
+p{
+  font-size: 14px;
+}
+
+img:hover {
+ opacity: 0.75;
+}
+
+.p01{
+  padding-right: 0px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.link01{
+  text-align: center;
+}
+
+.float{
+  padding-left:30px;
+  width: 260px;
+  height: 350px;
+}
+
+
+body {
+  font-family: "メイリオ", sans-serif;
+  animation: fadeIn 8s ease 0s 1 normal;
+  -webkit-animation: fadeIn 8s ease 0s 1 normal;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+  h1{
+    box-sizing:border-box;
+    max-width: 1900px;
+    margin: 0 auto 10px auto;
+    padding:15px 30px;
+    background-color: #f9f9f9;
+    border: #f9f9f9 1px solid;
+    border-radius: 0px 0px 0px 0px;
+    color: #111;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 16px;
+    text-align: left;
+  }
+
+  h4{
+    padding-right: 25px ;
+    text-align: right;
+    position: relative;
+  }
+
+  footer{
+  	box-sizing:border-box;
+  	max-width: 1900px;
+  	margin: 0 auto 10px auto;
+  	padding:15px 30px;
+  	background-color: #f9f9f9;
+  	border: #f9f9f9 1px solid;
+  	border-radius: 0px 0px 0px 0px;
+  	color: #111;
+  	font-size: 12px;
+    padding-right: 20px;
+  	text-align: right;
+  }
+
+  @keyframes fadeIn {
+      0% {opacity: 0}
+      100% {opacity: 1}
+  }
+
+  @-webkit-keyframes fadeIn {
+      0% {opacity: 0}
+      100% {opacity: 1}
+  }
